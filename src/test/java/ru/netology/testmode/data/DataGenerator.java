@@ -5,6 +5,8 @@ import lombok.Value;
 
 import java.util.Locale;
 
+import static ru.netology.testmode.data.ApiHelper.sendRequest;
+
 public class DataGenerator {
     private static final Faker faker = new Faker(new Locale("en"));
 

@@ -67,7 +67,7 @@ class AuthTest {
                 .shouldBe((Condition.visible));
     }
     @Test
-    @DisplayName("Should get error message if login with wrong login")
+    @DisplayName("Should get error message if login with wrong Password")
     void shouldGetErrorIfWrongPassword() {
         var registeredUser = getRegisteredUser("active");
         var wrongPassword = getRandomPassword();
